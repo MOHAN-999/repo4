@@ -1,6 +1,7 @@
 node(){
    
    stage("Git Checkout"){
+   checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'repo4git', url: 'https://github.com/MOHAN-999/repo4.git']]])
    
    }
    //stage("Maven Build"){

@@ -1,4 +1,9 @@
-node{
-hi guys how are u dude
-}
+node(){
+   
+   stage("Git Checkout"){
+   
+   }
+   //stage("Maven Build"){
+   //sh "mvn package"
+   //}
 
